@@ -80,9 +80,8 @@ DATABASES = {
         'NAME': "Shining_manage",
         'USER':"root",
         "PORT":"3306",
-        "PASSWORD":"",
+        "PASSWORD":"123456",
         "HOST":"127.0.0.1",
-
     }
 }
 

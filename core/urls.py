@@ -6,7 +6,6 @@ from core import views
 
 index_path=[
     url('index$', views.index),
-
     url('video',views.video,name="video")
 ]
 
