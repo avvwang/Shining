@@ -696,6 +696,11 @@
          immediately after the control sidebar -->
     <div class="control-sidebar-bg"></div>
 </div>
+<div id="custom">
+<label >22222</label>
+<input value="222">
+</div>
+
 <!-- ./wrapper -->
 
 <!-- jQuery 3 -->
@@ -717,5 +722,20 @@
 <!-- datatable script -->
 <script src="{% static "core/video.js" %}"></script>
 
+
+<script>
+    $("#example tbody tr").each(function () {
+{#        console.log($(this)[0])#}
+        i=$(this).children('tr').prevObject
+      console.log(i)
+    })
+
+
+
+
+{#    document.write("<p>来自 intro 段落的文本：</p>");#}
+
+
+</script>
 </body>
 </html>
