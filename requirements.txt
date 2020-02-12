@@ -27,7 +27,7 @@ cryptography==2.3
 cx-Freeze==5.1.1
 cycler==0.10.0
 DateTime==4.2
-Django==2.1.8
+Django==2.2.10
 django-celery==3.2.2
 django-celery-results==1.0.4
 django-cors-headers==2.5.2
