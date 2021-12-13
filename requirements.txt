@@ -69,7 +69,7 @@ ldap3==2.5.2
 lml==0.0.2
 locust==0.0
 locustio==0.9.0
-lxml==4.2.3
+lxml==4.6.5
 macholib==1.9
 macropy3==1.1.0b2
 MarkupSafe==1.0
